@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@media (max-width: 768px) {
+    .sec-1, .images {
+        flex-direction: column;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width:auto;
+    background:#152937;
+}
+.header .container {
+    display:flex;
+    background:#152937;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+}
+.logo {
+    font-weight: 800;
+    color:#f9faf8;
+    font-size: 24px;
+   padding-left: min(10px);
+   padding-top: min(10px);
+}
+ul {
+    color:#e5e7eb;
+    size:18px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* below header/navbar */
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#152937;
+    padding: 10% 16%;
+    gap: 8px;
+}
+.no {
+    flex: 1 1 auto;
+    width: 80%;
+    min-width: min-content;
+
+}
+.seriously {
+    font-size: 40px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.sec-1p {
+    font-size:18px;
+    color:#e5e7eb;
+}
+.btn {
+    padding-block: 10px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color:#3882f6;
+    border: none;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: large;
+}
+.shooby {
+    flex: 0 1 auto;
+    width: 80%;
+    height: 230px;
+    justify-self: center;
+}
+
+/* below first section */
+
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    margin: 5%;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.images {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 2%;
+}
+.bonk {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+.bonky {
+    padding-top: 15px;
+    width: 200px;
+    height: 200px;
+    min-width: min-content;
+    color:#152937;
+}
+.quote {
+    text-align: center;
+    min-width: min-content;
+    width: 70%;
+    font-size: 150%;
+}
+.blueshit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882f6;
+    margin: 100px;
+    width: 80%;
+    padding: 3% 50px;
+    border-radius: 10px;
+    gap: 10%;
+}
+.call-text { 
+    flex: 1;
+    color:#fff;
+    margin-left: auto;
+}
+.blueshit .call-text .fuck {
+    font-size: 20px;
+    font-weight: 800;
+}
+.btnk {
+    flex: 0 1 auto;
+    width: 150px;
+    height: 50px;
+    margin: 0px 5%;
+    font-weight: 600;
+    font-size: 15px;
+    border: 3px solid #fff;
+    border-radius: 11px;
+    background-color: #3882f6;
+    color:#fff;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width:100%;
+    background-color:#152937;
+}
+.cr-footer {
+    color:#f9faf8;
+}
